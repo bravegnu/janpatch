@@ -3,7 +3,7 @@ NAME = janpatch-cli
 CC ?= gcc
 CFLAGS ?= -Wall
 
-MACROS += -DJANPATCH_STREAM=FILE
+# MACROS += -DJANPATCH_STREAM=FILE
 CFLAGS += -I.
 
 all: build
